@@ -1,44 +1,49 @@
-# 🎉 Telegram Quiz Bot 🎉
+# 🌍 PhriniFluent: Enhanced Telegram Quiz Bot 🌍
 
-Welcome to the **Telegram Quiz Bot** - an engaging and dynamic way to challenge your knowledge on Telegram! Whether you're here to test your intellect or want a friendly competition with your pals, our bot has got you covered. And the best part? It's open source!
+![PhriniFluent Logo](logo.png)
 
-🔗 Interact with the bot directly on Telegram: [@This_quiz_bot](https://t.me/This_quiz_bot)
+Welcome to **PhriniFluent**! Originally forked from [QuizBot](https://github.com/SWel1a/QuizBot), PhriniFluent takes the engaging quiz experience a step further. With the addition of a User Database, Word Libraries Database, and an integration with OpenAI for word library management and interactions generation, our bot promises a richer interaction. Dive in and challenge your intellect!
+
+🔗 Interact with the bot directly on Telegram: [@PhriniFluentBot](https://t.me/PhriniFluentBot)
 
 ## 🚀 Features:
 
-- 🌐 **Multi-language Support**: From English to Spanish, and more!
-- 🕐 **Timed Quizzes**: Customize intervals between questions.
-- ✏️ **Add & Remove Words**: Authorized users can expand or refine the quiz database.
-- 📚 **List Words**: Check out the vocabulary for different languages.
-- 🌍 **Change Bot Language**: Want the bot to converse in French? No problem!
+- 🌐 **Multi-language Support**: From English to Spanish, and beyond!
+- 🕐 **Timed Quizzes**: Set your pace with customizable intervals between questions.
+- ✏️ **Add & Remove Words**: With an authorized access, mold the quiz database as you see fit.
+- 📚 **List Words**: Explore the vocabulary across different languages.
+- 🌍 **Change Bot Language**: Desire a chat in French? C'est bon!
+- 📊 **User Database**: Track and manage user interactions and performance.
+- 📖 **Word Libraries Database**: A dedicated database to hold the vast array of words.
+- 🤖 **OpenAI Integration**: Enhanced word library management and dynamic interactions generation.
 
 ## 🎖 Getting Started:
 
 **1. Dive Right In**:
-Kick things off with `/start English 60` to launch an English quiz with questions every 60 seconds. Customize as you like!
+Begin with `/start English 60` for an English quiz that throws questions every 60 seconds. Tweak as you wish!
 
 **2. Answering**: 
-Reply directly to bot's questions. Stumped by a tough one? Just say `/idk`.
+Respond straight to the bot's queries. Encountered a brainteaser? Reply with `/idk`.
 
 **3. Control**:
-Use `/stop` to conclude your quiz or `/quiz` to jump to the next question without waiting.
+End your quiz session with `/stop` or skip to the subsequent question using `/quiz`.
 
 **4. Modify Database**:
-Authorized users, enhance the database with `/add_word` or prune it with `/remove_word`.
+Those with the authorization can expand the database using `/add_word` or trim it with `/remove_word`.
 
 **5. Play in Your Language**:
-Switch bot's language using `/language` and check words with `/list`.
+Alter the bot's language with `/language` and retrieve words with `/list`.
 
 ## 🖥️ Running the Project Locally:
 
 ### Installation & Setup:
 
 ```bash
-git clone https://github.com/SWel1a/QuizBot
-cd QuizBot
+git clone https://github.com/Flagro/PhriniFluent
+cd PhriniFluent
 mv .env-example .env
 echo "TELEGRAM_TOKEN=<your telegram token>" >> .env
 docker-compose up
 ```
 
-🎈 That's it! Enjoy the thrill of quizzes right in your Telegram chat. Should you have questions or need some guidance, our developer community is always here to help. Happy quizzing! 🎈
+🎉 Dive into the captivating world of quizzes directly in your Telegram chat. If queries arise or you seek assistance, our developer community is ever ready. Enjoy and happy quizzing! 🎉
