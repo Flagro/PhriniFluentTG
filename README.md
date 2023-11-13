@@ -2,8 +2,9 @@
 
 ![PhriniFluent Logo](logo.png)
 
-Welcome to **PhriniFluent**! Originally forked from [QuizBot](https://github.com/SWel1a/QuizBot), PhriniFluent takes the engaging quiz experience a step further. With the addition of a User Database, Word Libraries Database, and an integration with OpenAI for word library management and interactions generation, our bot promises a richer interaction. Dive in and challenge your intellect!
+Welcome to **PhriniFluentTG** repository of **PhriniFluent**! Originally forked from [QuizBot](https://github.com/SWel1a/QuizBot), PhriniFluent takes the engaging quiz experience a step further. With the addition of a User Database, Word Libraries Database, and an integration with OpenAI for word library management and interactions generation, our bot promises a richer interaction. Dive in and challenge your intellect!
 
+🔗 [PhriniFluent Main Project](https://github.com/Flagro/PhriniFluent)
 🔗 Interact with the bot directly on Telegram: [@PhriniFluentBot](https://t.me/PhriniFluentBot)
 
 ## 🚀 Features:
