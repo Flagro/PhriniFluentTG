@@ -1,12 +1,12 @@
 version: '3.9'
 
 services:
-  quiz_telegram_bot:
-    image: quiz_bot_image
+  phrinifluent_telegram_bot:
+    image: phrinifluent_bot_image
     volumes:
       - ./:/app
     build: .
-    container_name: my_telegram_bot_container
+    container_name: phrinifluent_bot_container
     env_file:
       - .env
     restart: unless-stopped
