@@ -48,4 +48,9 @@ echo "TELEGRAM_TOKEN=<your telegram token>" >> .env
 docker-compose up
 ```
 
+Or you could use our ghcr image:
+```bash
+docker run -e TELEGRAM_TOKEN=YOUR_TELEGRAM_TOKEN -e ALLOWED_HANDLES=@handle1,@handle2,@handle3 ghcr.io/flagro/phrinifluenttg:main
+```
+
 🎉 Dive into the captivating world of quizzes directly in your Telegram chat. If queries arise or you seek assistance, our developer community is ever ready. Enjoy and happy quizzing! 🎉
